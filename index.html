@@ -58,6 +58,7 @@ html,
 body {
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
+	background-color: #6E91A1;
 }
 
 p {
@@ -118,12 +119,24 @@ button:hover {
   /*   background-color: #C2DFE3;
   color:black; */
   box-shadow: 0px 0px 5px white;
-  background-color: purple;
+/*  background-color: purple;*/
+}
+
+#open {
+	margin-top: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#open img {
+	width: 70%;
+	height: auto;
 }
 
 #intro {
   margin-top: 114px;
-  background-color: #6E91A1;
+/*  background-color: #6E91A1;*/
   /*   background-color: #467386; */
   /*   background-color: #9DADCC; */
   min-height: 250px;
@@ -136,7 +149,8 @@ button:hover {
 }
 
 #portfolio {
-  background-color: #B7D7E5;
+/*	background-color: #6E91A1;*/
+  /*background-color: #B7D7E5;*/
   display: block;
   overflow: auto;
 }
@@ -159,7 +173,8 @@ button:hover {
 }
 
 #passions {
-  background-color: #97A0A5;
+	/*background-color: #6E91A1;*/
+  /*background-color: #97A0A5;*/
 }
 
 .passions-div {
@@ -178,7 +193,8 @@ button:hover {
 }
 
 #social-media {
-  background-color: #9DADCC;
+/*	background-color: #6E91A1;*/
+  /*background-color: #9DADCC;*/
 }
 
 #icons {
@@ -205,6 +221,7 @@ button:hover {
     margin-top: 0px;
     margin-right: 100px;
   }
+
   #intro {
     margin-top: 65px;
   }
@@ -242,7 +259,7 @@ button:hover {
   <header>
     <h1>Vincent Cleope Gomez</h1>
     <div class="buttons">
-      <a href="#intro"><button>Introduction</button></a>
+      <a href="#intro"><button>About Me</button></a>
       <a href="#portfolio"><button>Portfolio</button></a>
       <a href="#passions"><button>Passions</button></a>
       <a href="#social-media"><button>Social Media</button></a>
@@ -250,22 +267,29 @@ button:hover {
   </header>
 
   <body>
+		<div id="open">
+		<img src="https://scontent.xx.fbcdn.net/v/t31.0-8/10623905_10152324474292111_4532178754417183056_o.jpg?oh=49f1329bae8e8848ba614c398740a105&oe=595A1A8A">
+		</div>
     <div id="intro">
-      <h1 class="art-headers">Biography</h1>
-      <p><img src="https://scontent.xx.fbcdn.net/v/t31.0-8/16665700_10154181736972111_3242710955427368078_o.jpg?oh=58008911e4b4f0d441b0b6a37f4d519e&oe=5966BB97" width=200px>I was exposed to coding in January 2016 and was intrigued by it immediately. At the
-        time, I was a HS Foundational Level Math teacher teaching Algebra 1 and Geometry. Although I was satisfied with my career choice, I definitely wondered if there was another field that suited me better. At work, I noticed I enjoyed solving all
-        of the new and crazy Common Core math problems more than I enjoyed teaching the students. Also during Professional Developements, I tended to be the guy who solved all of the example problems that were given to the teachers to experience learning
-        in this era of "new math". I ended up spending hours upon hours of my own freetime solving these complex (or at least deceptively complex) problems. At this point, I had realised I had discovered a new passion and by the middle of the school year,
-        I was contemplating a change. </p>
+      <h1 class="art-headers">About Me</h1>
+			<hr>
+      <p><img src="https://scontent.xx.fbcdn.net/v/t31.0-8/16665700_10154181736972111_3242710955427368078_o.jpg?oh=58008911e4b4f0d441b0b6a37f4d519e&oe=5966BB97" width=200px>
+				Hello there! My name is Vincent and I'm obsessed with coding! I was introduced to the subject in January of 2017
+				and by October I threw myself full time into my new passion.
+				I started doing the 'Free Code Camp' online curriculum and completed all of the projects and algorithm challenges
+        by the end of February earning their Front End Certificate (that's 5 months!).
+				It was definitely a struggle but with the help of a few classes from 'Girl Develope It',
+				countless 'Learn Teach Code' MeetUps, informative YouTube tutorials, weekly workshops through 'CodiePie', and of
+        course thousands of Google searches, I was able to make it through and gain a working knowledge of HTML, CSS, and
+				JavaScript in a relatively short amount of time.
+			  My next goal is to learn backend languages and go full stack in my knowledge.
       </br>
-      <p>And then a miracle happened. I was laid off due to a drop in student enrollment. I took it as a sign and threw myself full time into coding in October 2016. I started doing the 'Free Code Camp' cirriculum online and completed all of the projects
-        by the end of February (that's 5 months!). It was definitely a struggle but with the help of a few classes from 'Girl Develope It', countless 'Learn Teach Code' MeetUps, informative YouTube tutorials, weekly workshops through 'CodiePie', and of
-        course thousands of Google searches, I was able to make it through and gain a working knowledge of HTML, CSS, and JavaScript in a relatively short amount of time. My next goal is to learn backend languages and go full stack in my knowledge.</p>
-      </br>
-      <p>My coding journey has definitely been a challenging one. But one that has kept me fully engaged and satisfied. I love this new path and look forward to learning more and more in the time to come!</p>
+      My coding journey has definitely been a challenging one. But one that has kept me fully engaged and satisfied.
+			I love this new path and look forward to learning more and more in the time to come!</p>
     </div>
     <div id="portfolio">
       <h1 class="art-headers">Portfolio</h1>
+			<hr>
       <p>Here are thumbnail links to all of my projects. The first 9 are from FreeCodeCamp and the 10th one is the beginning of my own dream project: a Math Visualization web application to help students learn about tricky Math concepts!</p>
       <div id="gallery">
         <a href="http://codepen.io/VincentG123/full/pEPVRN/" target="_blank"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17311353_10154261489657111_6516888076860170348_o.jpg?oh=2d6cb1b4fcbe838c459d56ea1e96f182&oe=59651EEF" class="port-pics" </a>
@@ -282,6 +306,7 @@ button:hover {
     </div>
     <div id="passions">
       <h1 class="art-headers">Passions</h1>
+			<hr>
       <p>DANCE- Probably my first love. I've danced ever since I was a child. I performed filipino folk dances growning up and that taught me about hard work and discipline. When I got to college, I started studying ballet, modern, and jazz through the California
         State University Long Beach Dance Department. There, I got the opportunity to preform in several pieces for the school's dance concerts as well choreograph my own work.</p>
       <div class="passions-div">
@@ -311,6 +336,7 @@ button:hover {
 
     <div id="social-media">
       <h1 class="art-headers">Social Media</h1></br>
+			<hr>
       <div id="icons">
         <a class="icon-pics" target="_blank" title="follow me on twitter" href="https://twitter.com/VincentCleopeGo"><img alt="follow me on twitter" src="http://files.softicons.com/download/social-media-icons/ios-7-style-social-media-icons-by-design-bolts/png/256x256/Facebook.png"></a>
 <!--         <a class="icon-pics" target="_blank" title="follow me on twitter" href="https://twitter.com/VincentCleopeGo"><img alt="follow me on twitter" src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png"></a> -->
