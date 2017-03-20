@@ -7,344 +7,369 @@
 <style>
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
-   License: none (public domain)
-*/
+   License: n<!DOCTYPE HTML>
+	 <html>
+	 <head>
+	 <meta charset="UTF-8">
+	 	<title> Vincent Cleope Gomez</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <style>
+	 /* http://meyerweb.com/eric/tools/css/reset/
+	    v2.0 | 20110126
+	    License: none (public domain)
+	 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+	 html, body, div, span, applet, object, iframe,
+	 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	 a, abbr, acronym, address, big, cite, code,
+	 del, dfn, em, img, ins, kbd, q, s, samp,
+	 small, strike, strong, sub, sup, tt, var,
+	 b, u, i, center,
+	 dl, dt, dd, ol, ul, li,
+	 fieldset, form, label, legend,
+	 table, caption, tbody, tfoot, thead, tr, th, td,
+	 article, aside, canvas, details, embed,
+	 figure, figcaption, footer, header, hgroup,
+	 menu, nav, output, ruby, section, summary,
+	 time, mark, audio, video {
+	 	margin: 0;
+	 	padding: 0;
+	 	border: 0;
+	 	font-size: 100%;
+	 	font: inherit;
+	 	vertical-align: baseline;
+	 }
+	 /* HTML5 display-role reset for older browsers */
+	 article, aside, details, figcaption, figure,
+	 footer, header, hgroup, menu, nav, section {
+	 	display: block;
+	 }
+	 body {
+	 	line-height: 1;
+	 }
+	 ol, ul {
+	 	list-style: none;
+	 }
+	 blockquote, q {
+	 	quotes: none;
+	 }
+	 blockquote:before, blockquote:after,
+	 q:before, q:after {
+	 	content: '';
+	 	content: none;
+	 }
+	 table {
+	 	border-collapse: collapse;
+	 	border-spacing: 0;
+	 }
 
-html,
-body {
-  height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-	background-color: #6E91A1;
-}
+	 html,
+	 body {
+	   height: 100%;
+	   font-family: Arial, Helvetica, sans-serif;
+	 	background-color: #6E91A1;
+	 }
 
-p {
-  font-size: 25px;
-  text-align: justify;
-}
+	 p {
+	   font-size: 25px;
+	   text-align: justify;
+	 }
 
-.flex-container > * {
-  padding: 15px 30px;
-}
+	 .flex-container > * {
+	   padding: 15px 30px;
+	 }
 
-header {
-  background: #293444;
-  color: silver;
-  position: fixed;
-  width: 100%;
-  height: auto;
-  top: 0px;
-}
+	 header {
+	   background: #293444;
+	   color: silver;
+	   position: fixed;
+	   width: 100%;
+	   height: auto;
+	   top: 0px;
+	 }
 
-h1 {
-  text-align: center;
-  font-size: 35px;
-}
+	 h1 {
+	   text-align: center;
+	   font-size: 35px;
+	 }
 
-header h1 {
-  text-align: center;
-  display: block;
-  margin-right: 60px;
-}
+	 header h1 {
+	   text-align: center;
+	   display: block;
+	   margin-right: 60px;
+	 }
 
-.art-headers {
-  margin-bottom: 10px;
-}
+	 .art-headers {
+	   margin-bottom: 10px;
+	 }
 
-.buttons {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  padding: 0px;
-  margin-right: 60px;
-}
+	 .buttons {
+	   display: flex;
+	   justify-content: center;
+	   margin-top: 10px;
+	   padding: 0px;
+	   margin-right: 60px;
+	 }
 
-button {
-  background-color: #293444;
-  border: none;
-  color: silver;
-  padding: 10px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin: 1px 1px;
-  cursor: pointer;
-}
+	 button {
+	   background-color: #293444;
+	   border: none;
+	   color: silver;
+	   padding: 10px 15px;
+	   text-align: center;
+	   text-decoration: none;
+	   display: inline-block;
+	   font-size: 14px;
+	   margin: 1px 1px;
+	   cursor: pointer;
+	 }
 
-button:hover {
-  /*   background-color: #C2DFE3;
-  color:black; */
-  box-shadow: 0px 0px 5px white;
-/*  background-color: purple;*/
-}
+	 button:hover {
+	   /*   background-color: #C2DFE3;
+	   color:black; */
+	   box-shadow: 0px 0px 5px white;
+	 /*  background-color: purple;*/
+	 }
 
-#open {
-	margin-top: 80px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
+	 #open {
+	 	margin-top: 140px;
+	 	display: flex;
+	 	align-items: center;
+	 	justify-content: center;
+	 }
 
-#open img {
-	width: 70%;
-	height: auto;
-}
+	 #open img {
+	 	max-width: 600px;
+	 	border: 5px solid white;
+	 }
 
-#intro {
-  margin-top: 114px;
-/*  background-color: #6E91A1;*/
-  /*   background-color: #467386; */
-  /*   background-color: #9DADCC; */
-  min-height: 250px;
-}
+	 #intro {
+	   margin-top: 114px;
+	 /*  background-color: #6E91A1;*/
+	   /*   background-color: #467386; */
+	   /*   background-color: #9DADCC; */
+	   min-height: 250px;
+	 }
 
-#intro img {
-  float: right;
-  margin: 0 0 10px 20px;
-  border: 5px solid white;
-}
+	 #intro img {
+	   float: right;
+	   margin: 0 0 10px 20px;
+	   border: 5px solid white;
+	 }
 
-#portfolio {
-/*	background-color: #6E91A1;*/
-  /*background-color: #B7D7E5;*/
-  display: block;
-  overflow: auto;
-}
+	 #portfolio {
+	 /*	background-color: #6E91A1;*/
+	   /*background-color: #B7D7E5;*/
+	   display: block;
+	   overflow: auto;
+	 }
 
-#gallery {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
+	 #gallery {
+	   display: flex;
+	   justify-content: space-around;
+	   flex-wrap: wrap;
+	 }
 
-.port-pics {
-  height: 200px;
-  width: 300px;
-  margin: 10px;
-  border: 5px solid white;
-}
+	 .port-pics {
+	   height: 200px;
+	   width: 300px;
+	   margin: 10px;
+	   border: 5px solid white;
+	 }
 
-.port-pics:hover {
-  box-shadow: 0px 0px 20px white;
-}
+	 .port-pics:hover {
+	   box-shadow: 0px 0px 20px white;
+	 }
 
-#passions {
-	/*background-color: #6E91A1;*/
-  /*background-color: #97A0A5;*/
-}
+	 #passions {
+	 	/*background-color: #6E91A1;*/
+	   /*background-color: #97A0A5;*/
+	 }
 
-.passions-div {
-  display: flex;
-  justify-content: center;
-  margin: 10px 0px;
-}
+	 .passions-div {
+	   display: flex;
+	   justify-content: center;
+	   margin: 10px 0px;
+	 }
 
-.passions-div img {
-  margin: 0px 20px;
-  border: 5px solid white;
-}
+	 .passions-div img {
+	   margin: 0px 20px;
+	   border: 5px solid white;
+	 }
 
-.passions-div a img:hover {
-  box-shadow: 0px 0px 20px white;
-}
+	 .passions-div a img:hover {
+	   box-shadow: 0px 0px 20px white;
+	 }
 
-#social-media {
-/*	background-color: #6E91A1;*/
-  /*background-color: #9DADCC;*/
-}
+	 #social-media {
+	 /*	background-color: #6E91A1;*/
+	   /*background-color: #9DADCC;*/
+	 }
 
-#icons {
-  display: flex;
-  justify-content: center;
-}
+	 #icons {
+	   display: flex;
+	   justify-content: center;
+	 }
 
-#icons img {
-  margin: 5px;
-  width: 40px;
-  height: 40px;
-}
+	 #icons img {
+	   margin: 5px;
+	   width: 40px;
+	   height: 40px;
+	 }
 
-#icons img:hover {
-  box-shadow: 0px 0px 20px white;
-}
+	 #icons img:hover {
+	   box-shadow: 0px 0px 20px white;
+	 }
 
-@media only screen and (min-width: 950px) {
-  header h1 {
-    float: left;
-  }
-  .buttons {
-    float: right;
-    margin-top: 0px;
-    margin-right: 100px;
-  }
+	 @media only screen and (min-width: 950px) {
+	   header h1 {
+	     float: left;
+	   }
+	   .buttons {
+	     float: right;
+	     margin-top: 0px;
+	     margin-right: 100px;
+	   }
+	 	#open {
+	 		margin-top: 80px;
+	 	}
+	 	#open img {
+	 		max-width:700px;
+	 	}
 
-  #intro {
-    margin-top: 65px;
-  }
-  #intro img {
-    width: 300px;
-  }
-  .flex-container > * {
-    padding: 15px 50px;
-  }
-}
+	   #intro {
+	     margin-top: 65px;
+	   }
+	   #intro img {
+	     width: 300px;
+	   }
+	   .flex-container > * {
+	     padding: 15px 50px;
+	   }
+	 }
 
-@media only screen and (min-width:1000px) {
-  .port-pics {
-    height: 267px;
-    width: 400px;
-  }
-}
+	 @media only screen and (min-width:1000px) {
+	   .port-pics {
+	     height: 267px;
+	     width: 400px;
+	   }
+	 }
 
-@media only screen and (max-width: 400px) {
-  button {
-    font-size: 10px;
-    padding: 5px 10px;
-  }
-  #intro {
-    margin-top: 85px;
-  }
-  .passions-div img {
-    width: 80px;
-  }
-}
-</style>
-</head>
-<body>
-<div class="flex-container">
-  <header>
-    <h1>Vincent Cleope Gomez</h1>
-    <div class="buttons">
-      <a href="#intro"><button>About Me</button></a>
-      <a href="#portfolio"><button>Portfolio</button></a>
-      <a href="#passions"><button>Passions</button></a>
-      <a href="#social-media"><button>Social Media</button></a>
-      <div>
-  </header>
+	 @media only screen and (max-width: 400px) {
+	   button {
+	     font-size: 10px;
+	     padding: 5px 10px;
+	   }
+	 	header h1 {
+	 		font-size: 20px;
+	 	}
+	 	p {
+	 		font-size: 14px;
+	 	}
 
-  <body>
-		<div id="open">
-		<img src="https://scontent.xx.fbcdn.net/v/t31.0-8/10623905_10152324474292111_4532178754417183056_o.jpg?oh=49f1329bae8e8848ba614c398740a105&oe=595A1A8A">
-		</div>
-    <div id="intro">
-      <h1 class="art-headers">About Me</h1>
-			<hr>
-      <p><img src="https://scontent.xx.fbcdn.net/v/t31.0-8/16665700_10154181736972111_3242710955427368078_o.jpg?oh=58008911e4b4f0d441b0b6a37f4d519e&oe=5966BB97" width=200px>
-				Hello there! My name is Vincent and I'm obsessed with coding! I was introduced to the subject in January of 2017
-				and by October I threw myself full time into my new passion.
-				I started doing the 'Free Code Camp' online curriculum and completed all of the projects and algorithm challenges
-        by the end of February earning their Front End Certificate (that's 5 months!).
-				It was definitely a struggle but with the help of a few classes from 'Girl Develope It',
-				countless 'Learn Teach Code' MeetUps, informative YouTube tutorials, weekly workshops through 'CodiePie', and of
-        course thousands of Google searches, I was able to make it through and gain a working knowledge of HTML, CSS, and
-				JavaScript in a relatively short amount of time.
-			  My next goal is to learn backend languages and go full stack in my knowledge.
-      </br>
-      My coding journey has definitely been a challenging one. But one that has kept me fully engaged and satisfied.
-			I love this new path and look forward to learning more and more in the time to come!</p>
-    </div>
-    <div id="portfolio">
-      <h1 class="art-headers">Portfolio</h1>
-			<hr>
-      <p>Here are thumbnail links to all of my projects. The first 9 are from FreeCodeCamp and the 10th one is the beginning of my own dream project: a Math Visualization web application to help students learn about tricky Math concepts!</p>
-      <div id="gallery">
-        <a href="http://codepen.io/VincentG123/full/pEPVRN/" target="_blank"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17311353_10154261489657111_6516888076860170348_o.jpg?oh=2d6cb1b4fcbe838c459d56ea1e96f182&oe=59651EEF" class="port-pics" </a>
-          <a href="http://codepen.io/VincentG123/full/eBzEeR/" target="_blank"> <img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17239824_10154249415202111_2334303843420791196_o.jpg?oh=23f04ebe0b0940cf94c447832bc799d1&oe=5968206D" class="port-pics"></a>
-          <a href="http://codepen.io/VincentG123/full/jyarPW/" target="_blank"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17157794_10154249418307111_1072783168096097161_o.jpg?oh=c68ca64fcc826d89bee5192c915f428c&oe=596B73EA" class="port-pics"></a>
-          <a href="http://codepen.io/VincentG123/full/NdYdNE/" target="_blank"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17212010_10154249418532111_403408250931024863_o.jpg?oh=6865451327d819e1c64f0bb1cdcd6610&oe=596981F0" class="port-pics"></a>
-          <a href="http://codepen.io/VincentG123/full/XMrByP/" target="_blank"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17039427_10154249418727111_3215466127162530564_o.jpg?oh=a3fb3acf5dde7f93eda9e71547baeb6b&oe=592FA6EA" class="port-pics"></a>
-          <a href="http://codepen.io/VincentG123/full/jyvbma/" target="_blank"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17218583_10154249419287111_6763456291276411696_o.jpg?oh=c9bb95243839cc4102f1098d544b850c&oe=5933FBBD" class="port-pics"></a>
-          <a href="http://codepen.io/VincentG123/full/qqKLxE/" target="_blank"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17097800_10154249419482111_8734482271322150676_o.jpg?oh=985d86a33632569cfe53b94c542c4d7d&oe=59723B75" class="port-pics"></a>
-          <a href="http://codepen.io/VincentG123/full/PbKyzj/" target="_blank"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17159076_10154249419722111_15050591057479759_o.jpg?oh=31e768bc4e6091875850ab2fd947a5b3&oe=5968A930" class="port-pics"></a>
-          <a href="http://codepen.io/VincentG123/full/xRXdwN/" target="_blank"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17240258_10154249419782111_4742793578336101902_o.jpg?oh=7ab6a91eef46eca5fda6699c417e22bf&oe=596FE9C4" class="port-pics"></a>
-          <a href="https://vincentg123.github.io/visual-fractions/" target="_blank"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17157479_10154249422607111_7482900942612249914_o.jpg?oh=df17192ba2fa37da33ec40feea87aab9&oe=592EBF6B" class="port-pics"></a>
-      </div>
-    </div>
-    <div id="passions">
-      <h1 class="art-headers">Passions</h1>
-			<hr>
-      <p>DANCE- Probably my first love. I've danced ever since I was a child. I performed filipino folk dances growning up and that taught me about hard work and discipline. When I got to college, I started studying ballet, modern, and jazz through the California
-        State University Long Beach Dance Department. There, I got the opportunity to preform in several pieces for the school's dance concerts as well choreograph my own work.</p>
-      <div class="passions-div">
-        <a target="_blank" href="http://web.csulb.edu/depts/dance/index.html"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17159205_10154260898187111_859244843785824137_o.jpg?oh=e97567e1749b818a027f40c3c255ca79&oe=5961D3B3" height=150px/></a>
-        <a target="_blank" href="http://tagaloglang.com/pandanggo-sa-ilaw/"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17240687_10154261037292111_4916760523029390282_o.jpg?oh=16a8716657f6c122f02066aa7dd6ec24&oe=59724F0F" height=150px/></a>
-      </div>
-      <p>THEATRE- I started theatre when I was in High School. It was the perfect way to break out of my near paralysing shyness. I continued to dabble in college and even went to NYC and studied stage acting for a year. Since then, I've performed in community
-        theatre and have written two plays that I have produced and directed through the Hollywood Fringe Festival. </p>
-      <div class="passions-div">
-        <a target="_blank" href="http://www.hollywoodfringe.org/projects/1720"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/10369086_10152125611957111_1152695412072961126_o.jpg?oh=d71c22b93c8f2a26e3875c5274f35942&oe=5930C02F" width=200px/></a>
-        <a target="_blank" href="http://www.hollywoodfringe.org/projects/2206"><img src="https://s3.amazonaws.com/FringeUser/p_2206_i_9453855.jpeg" width=200px/></a>
-      </div>
-      <p>YOGA- I spent about 6 years of my life dedicated to practicing and teaching Ashtanga yoga. The entire time I spent in flip flops and sweat pants. I also took 3 trips to India where I studied under Sri K. Pattabhi Jois. It was a magical time in my
-        life and I'll always cherish those memories.</p>
-      <div class="passions-div">
-        <a target="_blank" href="https://www.ashtangayoga.info/practice/downloads/cheat-sheets-pdf/"> <img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/228224_6324262110_6736_n.jpg?oh=40e1af2e9e793d8d4c289c068c417e17&oe=595FE230" height=150px></a>
-        <a target="_blank" href="http://kpjayi.org/the-institute/studying-in-mysore/"><img src="http://taysp.com/wp-content/uploads/2015/08/Jois-1.jpg" height=150px/>
-          <a>
-      </div>
-      <p>MATH- The subject of Math always came naturally to me. However, it only became exciting when, as a Math teacher, I was exposed to the new Common Core ways of teaching Math. Suddenly, I was drawing pictures to represent Math concepts and spending
-        hours trying to figure out open ended problems that required me to think outside of the box. And once I figured something out, I had to be able to explain my findings to others. It's definitely a new and exciting approach to Math.</p>
-      <div class="passions-div">
-        <a target="_blank" href="http://www.visualpatterns.org"><img src="https://scontent.xx.fbcdn.net/v/t31.0-8/17211872_10154261112357111_468763420510024112_o.jpg?oh=9033023a7e3436a905d7f6de65220990&oe=592EDC9D" height=150px /></a>
-        <a target="_blank" href="https://www.youcubed.org"> <img src="https://scontent.xx.fbcdn.net/v/t31.0-8/17311027_10154261111862111_8935811856944688907_o.jpg?oh=c23bb8742512ed53ea3014c7720491c4&oe=596A1C17" height=150px/></a>
-      </div>
-    </div>
+	 	#open img {
+	 		max-width:300px;
+	 	}
+	   #intro {
+	     margin-top: 85px;
+	   }
+	   .passions-div img {
+	     width: 80px;
+	   }
+	 }
+	 </style>
+	 </head>
+	 <body>
+	 <div class="flex-container">
+	   <header>
+	     <h1>Vincent Cleope Gomez</h1>
+	     <div class="buttons">
+	       <a href="#intro"><button>About Me</button></a>
+	       <a href="#portfolio"><button>Portfolio</button></a>
+	       <a href="#passions"><button>Passions</button></a>
+	       <a href="#social-media"><button>Social Media</button></a>
+	       <div>
+	   </header>
 
-    <div id="social-media">
-      <h1 class="art-headers">Social Media</h1></br>
-			<hr>
-      <div id="icons">
-        <a class="icon-pics" target="_blank" title="follow me on twitter" href="https://twitter.com/VincentCleopeGo"><img alt="follow me on twitter" src="http://files.softicons.com/download/social-media-icons/ios-7-style-social-media-icons-by-design-bolts/png/256x256/Facebook.png"></a>
-<!--         <a class="icon-pics" target="_blank" title="follow me on twitter" href="https://twitter.com/VincentCleopeGo"><img alt="follow me on twitter" src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png"></a> -->
-        <a class="icon-pics" target="_blank" title="find us on Facebook" href="https://www.facebook.com/vincent.gomez.9085"><img alt="follow me on facebook" src="http://icons.iconarchive.com/icons/limav/flat-gradient-social/256/Twitter-icon.png"></a>
-        <a class="icon-pics" target="_blank" title="linkedin profile page" href="https://www.linkedin.com/in/vincent-gomez-1b429431/"><img src=" http://www.prosperitycoaching.biz/blog/wp-content/uploads/2016/09/linkedin-logo.png" height=35px width=35px></a>
-      </div>
-</body>
-<script>
+	   <body>
+	 		<div id="open">
+	 		<img src="https://scontent.xx.fbcdn.net/v/t31.0-8/10623905_10152324474292111_4532178754417183056_o.jpg?oh=49f1329bae8e8848ba614c398740a105&oe=595A1A8A">
+	 		</div>
+	     <div id="intro">
+	       <h1 class="art-headers">About Me</h1>
+	 			<hr>
+	       <p><img src="https://scontent.xx.fbcdn.net/v/t31.0-8/16665700_10154181736972111_3242710955427368078_o.jpg?oh=58008911e4b4f0d441b0b6a37f4d519e&oe=5966BB97" width=200px>
+	 				Hello there! My name is Vincent and I'm obsessed with coding! I was introduced to the subject in January of 2017
+	 				and by October I threw myself full time into my new passion.
+	 				I started doing the 'Free Code Camp' online curriculum and completed all of the projects and algorithm challenges
+	         by the end of February earning their Front End Certificate (that's 5 months!).
+	 				It was definitely a struggle but with the help of a few classes from 'Girl Develope It',
+	 				countless 'Learn Teach Code' MeetUps, informative YouTube tutorials, weekly workshops through 'CodiePie', and of
+	         course thousands of Google searches, I was able to make it through and gain a working knowledge of HTML, CSS, and
+	 				JavaScript in a relatively short amount of time.
+	 			  My next goal is to learn backend languages and go full stack in my knowledge.
+	       </br>
+	       My coding journey has definitely been a challenging one. But one that has kept me fully engaged and satisfied.
+	 			I love this new path and look forward to learning more and more in the time to come!</p>
+	     </div>
+	     <div id="portfolio">
+	       <h1 class="art-headers">Portfolio</h1>
+	 			<hr>
+	       <p>Here are thumbnail links to all of my projects. The first 9 are from FreeCodeCamp and the 10th one is the beginning of my own dream project: a Math Visualization web application to help students learn about tricky Math concepts!</p>
+	       <div id="gallery">
+	         <a href="http://codepen.io/VincentG123/full/pEPVRN/" target="_blank"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17311353_10154261489657111_6516888076860170348_o.jpg?oh=2d6cb1b4fcbe838c459d56ea1e96f182&oe=59651EEF" class="port-pics" </a>
+	           <a href="http://codepen.io/VincentG123/full/eBzEeR/" target="_blank"> <img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17239824_10154249415202111_2334303843420791196_o.jpg?oh=23f04ebe0b0940cf94c447832bc799d1&oe=5968206D" class="port-pics"></a>
+	           <a href="http://codepen.io/VincentG123/full/jyarPW/" target="_blank"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17157794_10154249418307111_1072783168096097161_o.jpg?oh=c68ca64fcc826d89bee5192c915f428c&oe=596B73EA" class="port-pics"></a>
+	           <a href="http://codepen.io/VincentG123/full/NdYdNE/" target="_blank"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17212010_10154249418532111_403408250931024863_o.jpg?oh=6865451327d819e1c64f0bb1cdcd6610&oe=596981F0" class="port-pics"></a>
+	           <a href="http://codepen.io/VincentG123/full/XMrByP/" target="_blank"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17039427_10154249418727111_3215466127162530564_o.jpg?oh=a3fb3acf5dde7f93eda9e71547baeb6b&oe=592FA6EA" class="port-pics"></a>
+	           <a href="http://codepen.io/VincentG123/full/jyvbma/" target="_blank"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17218583_10154249419287111_6763456291276411696_o.jpg?oh=c9bb95243839cc4102f1098d544b850c&oe=5933FBBD" class="port-pics"></a>
+	           <a href="http://codepen.io/VincentG123/full/qqKLxE/" target="_blank"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17097800_10154249419482111_8734482271322150676_o.jpg?oh=985d86a33632569cfe53b94c542c4d7d&oe=59723B75" class="port-pics"></a>
+	           <a href="http://codepen.io/VincentG123/full/PbKyzj/" target="_blank"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17159076_10154249419722111_15050591057479759_o.jpg?oh=31e768bc4e6091875850ab2fd947a5b3&oe=5968A930" class="port-pics"></a>
+	           <a href="http://codepen.io/VincentG123/full/xRXdwN/" target="_blank"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17240258_10154249419782111_4742793578336101902_o.jpg?oh=7ab6a91eef46eca5fda6699c417e22bf&oe=596FE9C4" class="port-pics"></a>
+	           <a href="https://vincentg123.github.io/visual-fractions/" target="_blank"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17157479_10154249422607111_7482900942612249914_o.jpg?oh=df17192ba2fa37da33ec40feea87aab9&oe=592EBF6B" class="port-pics"></a>
+	       </div>
+	     </div>
+	     <div id="passions">
+	       <h1 class="art-headers">Passions</h1>
+	 			<hr>
+	       <p>DANCE- Probably my first love. I've danced ever since I was a child. I performed filipino folk dances growning up and that taught me about hard work and discipline. When I got to college, I started studying ballet, modern, and jazz through the California
+	         State University Long Beach Dance Department. There, I got the opportunity to preform in several pieces for the school's dance concerts as well choreograph my own work.</p>
+	       <div class="passions-div">
+	         <a target="_blank" href="http://web.csulb.edu/depts/dance/index.html"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17159205_10154260898187111_859244843785824137_o.jpg?oh=e97567e1749b818a027f40c3c255ca79&oe=5961D3B3" height=150px/></a>
+	         <a target="_blank" href="http://tagaloglang.com/pandanggo-sa-ilaw/"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17240687_10154261037292111_4916760523029390282_o.jpg?oh=16a8716657f6c122f02066aa7dd6ec24&oe=59724F0F" height=150px/></a>
+	       </div>
+	       <p>THEATRE- I started theatre when I was in High School. It was the perfect way to break out of my near paralysing shyness. I continued to dabble in college and even went to NYC and studied stage acting for a year. Since then, I've performed in community
+	         theatre and have written two plays that I have produced and directed through the Hollywood Fringe Festival. </p>
+	       <div class="passions-div">
+	         <a target="_blank" href="http://www.hollywoodfringe.org/projects/1720"><img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/10369086_10152125611957111_1152695412072961126_o.jpg?oh=d71c22b93c8f2a26e3875c5274f35942&oe=5930C02F" width=200px/></a>
+	         <a target="_blank" href="http://www.hollywoodfringe.org/projects/2206"><img src="https://s3.amazonaws.com/FringeUser/p_2206_i_9453855.jpeg" width=200px/></a>
+	       </div>
+	       <p>YOGA- I spent about 6 years of my life dedicated to practicing and teaching Ashtanga yoga. The entire time I spent in flip flops and sweat pants. I also took 3 trips to India where I studied under Sri K. Pattabhi Jois. It was a magical time in my
+	         life and I'll always cherish those memories.</p>
+	       <div class="passions-div">
+	         <a target="_blank" href="https://www.ashtangayoga.info/practice/downloads/cheat-sheets-pdf/"> <img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/228224_6324262110_6736_n.jpg?oh=40e1af2e9e793d8d4c289c068c417e17&oe=595FE230" height=150px></a>
+	         <a target="_blank" href="http://kpjayi.org/the-institute/studying-in-mysore/"><img src="http://taysp.com/wp-content/uploads/2015/08/Jois-1.jpg" height=150px/>
+	           <a>
+	       </div>
+	       <p>MATH- The subject of Math always came naturally to me. However, it only became exciting when, as a Math teacher, I was exposed to the new Common Core ways of teaching Math. Suddenly, I was drawing pictures to represent Math concepts and spending
+	         hours trying to figure out open ended problems that required me to think outside of the box. And once I figured something out, I had to be able to explain my findings to others. It's definitely a new and exciting approach to Math.</p>
+	       <div class="passions-div">
+	         <a target="_blank" href="http://www.visualpatterns.org"><img src="https://scontent.xx.fbcdn.net/v/t31.0-8/17211872_10154261112357111_468763420510024112_o.jpg?oh=9033023a7e3436a905d7f6de65220990&oe=592EDC9D" height=150px /></a>
+	         <a target="_blank" href="https://www.youcubed.org"> <img src="https://scontent.xx.fbcdn.net/v/t31.0-8/17311027_10154261111862111_8935811856944688907_o.jpg?oh=c23bb8742512ed53ea3014c7720491c4&oe=596A1C17" height=150px/></a>
+	       </div>
+	     </div>
 
-</script>
-</html>
+	     <div id="social-media">
+	       <h1 class="art-headers">Social Media</h1></br>
+	 			<hr>
+	       <div id="icons">
+	         <a class="icon-pics" target="_blank" title="follow me on twitter" href="https://twitter.com/VincentCleopeGo"><img alt="follow me on twitter" src="http://files.softicons.com/download/social-media-icons/ios-7-style-social-media-icons-by-design-bolts/png/256x256/Facebook.png"></a>
+	 <!--         <a class="icon-pics" target="_blank" title="follow me on twitter" href="https://twitter.com/VincentCleopeGo"><img alt="follow me on twitter" src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png"></a> -->
+	         <a class="icon-pics" target="_blank" title="find us on Facebook" href="https://www.facebook.com/vincent.gomez.9085"><img alt="follow me on facebook" src="http://icons.iconarchive.com/icons/limav/flat-gradient-social/256/Twitter-icon.png"></a>
+	         <a class="icon-pics" target="_blank" title="linkedin profile page" href="https://www.linkedin.com/in/vincent-gomez-1b429431/"><img src=" http://www.prosperitycoaching.biz/blog/wp-content/uploads/2016/09/linkedin-logo.png" height=35px width=35px></a>
+	       </div>
+	 </body>
+	 <script>
+
+	 </script>
+	 </html>
